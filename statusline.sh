@@ -14,8 +14,8 @@ B  = '\033[38;2;59;130;246m'    # #3b82f6 — blue values
 D  = '\033[38;2;100;100;120m'   # gray-blue labels
 
 # Thin bar chars (half-height blocks to avoid overlap)
-FILL = '\u2584'    # ▄ lower half block — thinner than full █
-EMPT = '\u2581'    # ▁ lower one-eighth — very thin empty
+FILL = '\u2588'    # █ filled
+EMPT = '\u2591'    # ░ empty
 
 SEP = D + ' \u2502 ' + R
 
